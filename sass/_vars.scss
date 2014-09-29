@@ -1,0 +1,33 @@
+/** 
+ * SASS Variables/Colours/Sizes
+ */
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,300,400,600,700|Arimo);
+ 
+//breakpoints
+$break-xs: 768px;
+$break-sm: 992px;
+$break-md: 1200px;
+
+// Font size
+$font-base: percentage(10 / 16);  // 1rem = 10px
+
+//Colors
+$near-black : #273545;
+$text : $near-black;
+$color1 : #b5bf16;
+$color2 : #00a4e3;
+$color3 : #0072ae;
+$color4 : #569bbd;
+$near-white : #edf0f1;
+$grey-light : #cbcfd4;
+$grey-dark : #2a2f33;
+$grey : #63686b;
+
+// Font stacks
+$serif: serif;
+$sans-serif: "open sans",sans-serif;
+$sans-bold:"open sans bold";
+$sans-serif-alt:"Arimo",sans-serif;
+
+//other arbitrary variables/sizes
+$footerHeight : 50px;

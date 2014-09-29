@@ -1,0 +1,23 @@
+/* Welcome to Compass. In this file you should write your main styles. (or centralize your imports) Import this file using the following HTML or equivalent: <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/**  SASS Variables/Colours/Sizes */
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,300,400,600,700|Arimo);
+/* line 10, ../sass/base.scss */
+html { font-size: 62.5%; }
+
+/* line 13, ../sass/base.scss */
+body { color: #273545; font-family: "open sans", sans-serif; font-size: 1.6rem; }
+
+/* line 18, ../sass/base.scss */
+h2 { font-size: 3.5rem; font-weight: 300; }
+/* line 21, ../sass/base.scss */
+h2.section-header { padding: 40px 0; margin-bottom: 40px; border-bottom: 1px solid #edf0f1; width: 100%; text-align: center; }
+
+/* line 30, ../sass/base.scss */
+p { margin-top: 20px; }
+/* line 31, ../sass/base.scss */
+p.light { color: #63686b; }
+
+/* line 37, ../sass/base.scss */
+section { padding-bottom: 40px; margin-bottom: 40px; border-bottom: 1px solid #edf0f1; overflow: hidden; }
+/* line 42, ../sass/base.scss */
+section:last-child { border-bottom: none; }

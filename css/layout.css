@@ -1,0 +1,21 @@
+/**  SASS Variables/Colours/Sizes */
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,300,400,600,700|Arimo);
+/* line 4, ../sass/layout.scss */
+html, body { height: 100%; }
+
+/* line 7, ../sass/layout.scss */
+body { padding-top: 60px; }
+
+/* line 10, ../sass/layout.scss */
+.outer-wrapper { min-height: 100%; }
+
+/* line 13, ../sass/layout.scss */
+header { background: #000; position: fixed; top: 0; width: 100%; z-index: 200; }
+/* line 19, ../sass/layout.scss */
+header .page-top { background: #000; padding: 30px 0; }
+
+/* line 25, ../sass/layout.scss */
+.main-content { padding-bottom: 50px; height: 100%; overflow: auto; }
+
+/* line 31, ../sass/layout.scss */
+footer { height: 50px; margin-top: -50px; position: relative; background-color: #2a2f33; clear: both; }
