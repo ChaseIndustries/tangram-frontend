@@ -39,6 +39,7 @@
   });
   //slide nav auto scroll
   function setSlideNavTimer(){
+    window.clearInterval(slideNavTimer);
     var timer = window.setInterval(function(){
       var next = $(".slide-nav li.active").next().length ? $(".slide-nav li.active").next() : $(".slide-nav li:first");
       next.click();

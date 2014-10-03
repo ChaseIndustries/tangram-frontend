@@ -137,7 +137,7 @@ header {
     &.active {
       display:block;
       @include opacity(1);
-      @include transition-delay(.7s);
+      @include transition-delay(.3s);
     }
      > img {
        width:100%;
